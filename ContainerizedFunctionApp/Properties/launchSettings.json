@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "ContainerizedFunctionApp": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7216"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 30523,
+      "useSSL": false
+    }
+  }
+}
